@@ -15,11 +15,11 @@ Used Python to explore data related to bike share systems for three major cities
 
 ### Credits
 Reference List
-* [Reference #1[1]]
-* [Reference #2[2]]
-* [Reference #3[3]]
-* [Reference #4[4]]
-* [Reference #5[5]]
+* Reference #1[1]
+* Reference #2[2]
+* Reference #3[3]
+* Reference #4[4]
+* Reference #5[5]
 
 [1]: https://docs.scipy.org/doc/numpy/reference/index.html "scripy.org reference index"
 [2]: https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.mode.html "pydata.org pandas data frame"
