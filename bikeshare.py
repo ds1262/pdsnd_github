@@ -52,13 +52,13 @@ def get_filters():
             else:
                 break
         day = "all"
-        print("You have chosen:", month)
+        print("You have chosen:", month).title()
 
     # get user input for day of week (monday, tuesday, ... sunday)
     if filter_choice == filter[1]:
         print("Which day - Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, or Sunday?")
         while True:
-            day = input("Choose Day > ")
+            day = input("Choose Day > ").title()
             if day not in days:
                 pass
             else:
