@@ -31,7 +31,7 @@ def get_filters():
     # get user input for city (chicago, new york city, washington)
     print("Would you like to see data for chicago, new york city, washington?")
     while True:
-        city = input("Choose City > ")
+        city = input("Choose City > ").lower()
         if city not in cities:
             pass
         else:
@@ -41,7 +41,7 @@ def get_filters():
     # get user input to filter the data by month, day, or not at all
     print("Would you like to filter the data by month, day, or not at all?")
     while True:
-        filter_choice = input("Choose Data Filter > ")
+        filter_choice = input("Choose Data Filter > ").lower()
         if filter_choice not in filter:
             pass
         else:
@@ -58,13 +58,13 @@ def get_filters():
             else:
                 break
         day = "all"
-        print("You have chosen:", month)
+        print("You have chosen:", month).title()
 
     # get user input for day of week (monday, tuesday, ... sunday)
     if filter_choice == filter[1]:
         print("Which day - Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, or Sunday?")
         while True:
-            day = input("Choose Day > ")
+            day = input("Choose Day > ").title()
             if day not in days:
                 pass
             else:
